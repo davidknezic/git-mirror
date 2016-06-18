@@ -1,6 +1,6 @@
 # git-mirror
 
-> Mirror a repository periodically from one remote to another.
+> Mirror a git repository periodically from one remote to another.
 
 ## Usage
 
@@ -9,7 +9,7 @@ docker run \
   -e ORIGINAL_REPO="https://USER:PW@github.com/owner/repo" \
   -e MIRROR_REPO="https://USER:PW@example.com/mirrors/owner/repo.git" \
   -e CRON_STRING="*/5\t*\t*\t*\t*" \
-  davidknezic/mirror
+  davidknezic/git-mirror
 ```
 
 ## Configuration
