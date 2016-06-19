@@ -14,13 +14,13 @@ docker run \
 
 ## Configuration
 
-### ORIGINAL_REPO
+### `ORIGINAL_REPO`
 
 This is your original repository.
 
 It's mandatory to provide this value.
 
-### MIRROR_REPO
+### `MIRROR_REPO`
 
 This is the repository you want to mirror to.
 Please note that all the previous commits will be
@@ -28,7 +28,7 @@ irreversibly replaced by the original repository. (🚨)
 
 It's mandatory to provide this value.
 
-### CRON_STRING
+### `CRON_STRING`
 
 This configuration value defines how often
 the original repository should get mirrored into
@@ -72,8 +72,8 @@ docker run \
 
 However, please note that the last example is considered very insecure.
 
-Find other git environment variables in
-[this reference](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables).
+Find other possibilities in this
+[git environment variable reference](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables).
 
 ## Contributions
 
